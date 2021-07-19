@@ -2,6 +2,7 @@ import torch
 from torch import nn
 
 
+# 网络默认为2倍上采样，可自己更改3或4倍上采样
 class RDB_Conv(nn.Module):
     def __init__(self, inchannel, grow_rate):
         super(RDB_Conv, self).__init__()
