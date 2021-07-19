@@ -1,2 +1,2 @@
 # RDN
-Pytorch super resolution
+super resolution
